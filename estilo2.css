@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	min-height: 100%; 
+	 
+}
+
+
+.grid_container{
+	display: grid;
+	gap: 5px;
+	grid-template: 
+	"header" 100px
+	"main"	50px
+	"sidebar " auto
+	"footer" 80px
+	;
+}
+
+.header{
+	grid-area: header;
+	background-color: #701919;
+}
+
+
+.main{
+	grid-area: main;
+	background-color: #f49c60;
+}
+
+.sidebar{
+	grid-area: sidebar;
+	background-color: #ffcebb;
+	color: white;
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #000000;
+	color: white;
+}
+
+
+ 	header {
+		background-color: white;
+		height: 100px;
+;
+	}
+
+	header h1 {
+		font-family: 'Noto Sans', sans-serif;
+		text-shadow: 8px 8px 8px #deea88;
+		color: #ffffff;
+		font-size: 40px;
+		margin-left: 650px;
+		padding-top: 30px;
+	}
+
+	#lista {
+		font-family: 'Noto Sans', sans-serif;
+		height: 50px;
+	}
+
+	#lista ul {
+	padding-top: 10px;
+	padding-left: 550px;
+}
+
+#lista li {
+	display: inline;
+}
+
+#lista li a {
+	font-size: 20px;
+	text-decoration: none;
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	color: #000000;
+	text-align: center;
+}
+
+footer {
+	height: 60px;
+	margin-top: -26px;
+}
+
+footer p {
+	color: #ffffff;
+	font-style: italic;
+	margin-top: 20px;
+	margin-left: 110px;
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+aside {
+	height: 500px;
+	margin-top: -10px;
+}
+
+.tipografia {
+	margin-left: 300px;
+	margin-top: 50px;
+	background-color: #ffcebb;
+}
+
+.datos {
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.paleta {
+	margin-left: 900px;
+	margin-top: -300px;
+}
+
+#imagenes {
+	height: 500px;
+	margin-left: 200px;
+	overflow: scroll;
+}
+
+#imagenes h1 {
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    padding: 20px;
+    background-color: #f49c60;
+    padding-top: 20px;
+    height: 50px;
+}
+
+iframe {
+	margin-left: 350px;
+}
